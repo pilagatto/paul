@@ -1,0 +1,79 @@
+
+/*el ul li es para la barra de navegación */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  /* display:block hace que la barra aparezca una fila horizontal ancha */  
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+
+}
+
+/* a continuación los otros estilos */
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ /* width: 50%; */
+}
+
+.center-text {
+
+  text-align: center;
+
+}
+
+#demo {
+  color:blueviolet
+}
+
+/*
+h1 {
+    border: 1px solid black;
+   <!-- padding: 5px;    me lo va a aplicar a todos los lados  -->
+  <!--  margin: 30px;    me va a aplicar 30px en cada lado -->
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 20 px;
+    <!-- padding: 30px 15px 25px 20px;  sería primero TOP, RIGHT, BOTTOM y luego LEFT. En ese orden, en el sentido de la agujas del reloj. -->
+    <!-- lipsum.com  palabras en latin para rellenar.
+}
+
+
